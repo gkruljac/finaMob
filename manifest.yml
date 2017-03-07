@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: finaMob
+  host: finaMob
+  disk_quota: 1024M
+  services:
+  - finaMob-AdvancedMobileAccess
+  - finaMob-imfpush
+  - finaMob-cloudantNoSQLDB
